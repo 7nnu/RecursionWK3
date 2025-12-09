@@ -149,3 +149,11 @@ str2 = "aaa"
 print("The string " + str2 + " is palindrome? --- " +str(arr.palindrome(str2)))
 str3 = "abcdba"
 print("The string " + str3 + " is palindrome? --- " +str(arr.palindrome(str3)))
+
+# manually add numbers
+
+arr1 = Recursion()
+arr1.data = [1,4,2,5,3]
+arr1.print_all()
+arr1.merge_sort()
+
